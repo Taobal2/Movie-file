@@ -8,6 +8,8 @@ export const MovieFile = () => {
 
     return (
         <Container>
+                <Desc>Click to go to a detailed page.</Desc>
+
             <Wrapper>
                 {
                     data?.map((props, i)=>(
@@ -25,6 +27,12 @@ export const MovieFile = () => {
     )
 }
 
+const Desc = styled.div`
+padding-top:20px;
+font-size:25px;
+text-transform:uppercase;
+font-weight:bold;
+`;
 const Name = styled.div`
 position:absolute;
 top:0px;
@@ -92,7 +100,10 @@ width:100%;
 min-height:100vh;
 height:100%;
 padding-top:80px;
-
+background-color:antiquewhite;
+display:flex;
+flex-direction:column;
+align-items:center;
 `;
 const Wrapper = styled.div`
 display:flex;

@@ -6,7 +6,7 @@ import {ImProfile} from "react-icons/im";
 import {CgProfile} from "react-icons/cg";
 import {MdTimer} from "react-icons/md";
 import {GiFoodTruck, GiUnstableProjectile} from "react-icons/gi"
-import image from "../Movie/project logo.png";
+import image from "../Movie/Warner.jpg";
 import {Link} from "react-router-dom"
 
 export const HeaderNav = () => {
@@ -19,12 +19,12 @@ export const HeaderNav = () => {
                     <Links to="/"><AiOutlineHome/></Links>
                     <Links to="/details"><GiFoodTruck/></Links>
                     <Links  ><AiOutlineFlag/></Links>
-                    <Links><AiFillGithub/></Links>
+                    {/* <Links><AiFillGithub/></Links>
                     <Links ><GiUnstableProjectile/></Links>
                     <Links ><MdTimer/></Links>
                     <Links ><ImProfile/></Links>
                     <Links ><GrGamepad/></Links>
-                    
+                     */}
                     
                 </MyLinks>
             </Wrapper>
@@ -38,7 +38,7 @@ export const HeaderNav = () => {
 const Container = styled.div`
 width:100%;
 height:80px;
-background-color:teal;
+background-color:#000000;
 position:fixed;
 z-index:100;
 `;
@@ -51,14 +51,15 @@ align-items:center
 `;
 
 const Logo = styled.img`
-width:200px;
+width:150px;
 height:70px;
 object-fit:cover;
-margin-left:10px;
+margin-left:20px;
 `;
 
 const MyLinks = styled.div`
 display:flex;
+margin-right:20px;
 
 
 
@@ -79,9 +80,10 @@ transition:all 400ms;
 transform:scale(1);
 
 :hover{
-    background-color:brown;
+    background-color:#f2f2f2;
     transform:scale(1.05);
     cursor:pointer;
+    color:red;
 
 }
 `;

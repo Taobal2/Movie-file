@@ -59,7 +59,6 @@ background-color:rgba(0,0,0,0.5);
 position:absolute;
 left:0;
 transition:all 400ms;
-// padding-top:10px;
 
 
 :hover{
@@ -70,7 +69,7 @@ background-color:rgba(0,0,0,0);
 `;
 
 const Container=styled.div`
-padding-top:80px;
+padding-top:79px;
 width:100%;
 height:100%;
 min-height:100vh;
@@ -83,6 +82,7 @@ padding-top:200px;
 color:white;
 display:flex;
 flex-direction:column;
+
 
 
 
