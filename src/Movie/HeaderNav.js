@@ -37,8 +37,8 @@ export const HeaderNav = () => {
 
 const Container = styled.div`
   width: 100%;
-  height: 80px;
-  background-color: #000000;
+  height: 100px;
+  background-color: #cdcdcd;
   position: fixed;
   z-index: 100;
 `;

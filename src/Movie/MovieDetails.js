@@ -27,13 +27,14 @@ export const MovieDetails = () => {
   );
 };
 const Image = styled.img`
-  width: 500px;
-  height: 300px;
+  width: 550px;
+  height: 350px;
   object-fit: contain;
 `;
 
 const Title = styled.div`
   font-size: 30px;
+  font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 32px;
 `;
@@ -45,6 +46,7 @@ const Sub = styled.div`
 
 const Desc = styled.div`
   font-size: 23px;
+  font-family: lato sans serif;
 `;
 
 const Shadow = styled.img`
@@ -64,8 +66,8 @@ const Shadow = styled.img`
 const Container = styled.div`
   padding-top: 79px;
   width: 100%;
-  height: 100%;
   min-height: 100vh;
+  height: 100%;
 `;
 const Wrapper = styled.div`
   position: absolute;
