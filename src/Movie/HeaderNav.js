@@ -1,16 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  AiOutlineSetting,
-  AiOutlineHome,
-  AiOutlineFlag,
-  AiFillGithub,
-} from "react-icons/ai";
-import { GrGamepad } from "react-icons/gr";
-import { ImProfile } from "react-icons/im";
-import { CgProfile } from "react-icons/cg";
-import { MdTimer } from "react-icons/md";
-import { GiFoodTruck, GiUnstableProjectile } from "react-icons/gi";
+import { AiOutlineSetting, AiOutlineHome, AiOutlineFlag } from "react-icons/ai";
+import { GiFoodTruck } from "react-icons/gi";
 import image from "../Movie/Warner.jpg";
 import { Link } from "react-router-dom";
 
