@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
-import data from "./data.json";
+import data from "../../data.json";
 
 export const MovieDetails = () => {
   const { id } = useParams();
@@ -10,8 +10,7 @@ export const MovieDetails = () => {
 
   useEffect(() => {
     setMyData(data[id - 1]);
-    console.log(myData);
-  }, []);
+  }, [id]);
 
   return (
     <Container>

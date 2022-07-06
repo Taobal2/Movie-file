@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineSetting, AiOutlineHome, AiOutlineFlag } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineFlag } from "react-icons/ai";
 import { GiFoodTruck } from "react-icons/gi";
-import image from "../Movie/Warner.jpg";
+import image from "../../assets/Warner.jpg";
 import { Link } from "react-router-dom";
 
-export const HeaderNav = () => {
+export const Navigation = () => {
   return (
     <Container>
       <Wrapper>
@@ -29,9 +29,10 @@ export const HeaderNav = () => {
 const Container = styled.div`
   width: 100%;
   height: 100px;
-  background-color: #cdcdcd;
+  background-color: white;
   position: fixed;
   z-index: 100;
+  box-shadow: 0 0 10px;
 `;
 const Wrapper = styled.div`
   width: 100%;

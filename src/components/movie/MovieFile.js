@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import data from "./data.json";
+import data from "../../data.json";
 import { Link } from "react-router-dom";
 
 export const MovieFile = () => {
   return (
     <Container>
-      <Desc>Click to go to a detailed page.</Desc>
+      <Desc>Click card to go to a detailed page.</Desc>
 
       <Wrapper>
         {data?.map((props, i) => (
@@ -22,7 +22,7 @@ export const MovieFile = () => {
 };
 
 const Desc = styled.div`
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
